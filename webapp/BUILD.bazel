@@ -101,3 +101,6 @@ react_scripts(
     ],
     data = _RUNTIME_DEPS,
 )
+
+exports_files(["package.json",
+              "yarn.lock"])
